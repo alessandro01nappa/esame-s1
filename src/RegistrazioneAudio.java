@@ -5,7 +5,7 @@ public class RegistrazioneAudio extends ElementoMultimediale implements Riproduc
 
     // Costruttore
     public RegistrazioneAudio(String titolo, int durata, int volume) {
-        super(titolo); // Chiama il costruttore padre
+        super(titolo); // Chiama il cost.
         this.durata = durata;
         this.volume = volume;
     }
@@ -22,7 +22,7 @@ public class RegistrazioneAudio extends ElementoMultimediale implements Riproduc
         this.volume = this.volume - 1;
     }
 
-    // Implementazione del metodo play
+    // Implementazione del metodo play (qui non ho capito alcune cose di intellij)
     public void play() {
         int i = 0;
         while (i < this.durata) {

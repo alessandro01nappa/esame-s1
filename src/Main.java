@@ -32,7 +32,7 @@ public class Main {
                         int luminosita = scanner.nextInt();
                         elementi[i] = new Immagine(titolo, luminosita);
                     } else {
-                        System.out.println("Scelta non valida, ripeti l'inserimento.");
+                        System.out.println("Scelta non valida, ripeti.");
                         i = i - 1;
                     }
                 }
@@ -48,7 +48,7 @@ public class Main {
 
         int comando = -1;
         while (comando != 0) {
-            System.out.println("Quale elemento vuoi eseguire? Scegli da 1 a 5 (0 per uscire):");
+            System.out.println("Quale elemento vuoi eseguire? Scegli da 1 a 5 o 0 per uscire:");
             comando = scanner.nextInt();
 
             if (comando >= 1 && comando <= 5) {

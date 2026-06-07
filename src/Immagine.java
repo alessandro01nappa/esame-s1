@@ -22,7 +22,7 @@ public class Immagine extends ElementoMultimediale {
     // Metodo specifico per mostrare l'immagine
     public void show() {
         System.out.print(getTitolo());
-        // Ciclo for per stampare gli asterischi
+        // Ciclo for per stampare
         for (int i = 0; i < this.luminosity; i++) {
             System.out.print("*");
         }
